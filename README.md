@@ -1,0 +1,1 @@
+When I am animating, I wanted a way to speed up 2ndary motion so that things would move faster through motion that follows the action of other things, which is why I created this tool. I wanted to be able to speed up the process and build a simple secondary motion buildout for scenes I am animating to speed up things like hair, chains, or straps on characters or objects.
