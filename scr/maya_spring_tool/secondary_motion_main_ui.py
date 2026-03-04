@@ -57,6 +57,7 @@ class AboutDialog(QDialog):
 
         title = QLabel("<b>Secondary Motion Tool</b>")
         version = QLabel(f"Version {version}")
+        author = QLabel("Author: Mark Conrad")
 
         description = QLabel(
             "This is a tool to help create secondary motion on a joint chain using an additive animation layer. "
@@ -91,6 +92,7 @@ class AboutDialog(QDialog):
 
         layout.addWidget(title)
         layout.addWidget(version)
+        layout.addWidget(author)
         layout.addWidget(description)
         layout.addSpacing(10)
         layout.addWidget(links)
@@ -169,7 +171,7 @@ class SecondaryMotionUI(QtWidgets.QMainWindow):
         self.run_simulation_btn = QPushButton("Run the Secondary Motion Simulation")
         self.run_simulation_btn.setStyleSheet("color: white; background-color: green; font-weight: bold;")
 
-        self.delete_animation_layere_btn = QPushButton("Run the Secondary Motion Simulation")
+        self.delete_animation_layere_btn = QPushButton("Delete animation layer by name")
         self.delete_animation_layere_btn.setStyleSheet("color: white; background-color: blue; font-weight: bold;")
 
         # Fields
